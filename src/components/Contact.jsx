@@ -32,7 +32,7 @@ const Contact = () => {
       setIsSending(true);
 
     try {
-      const response = await axios.post('api-rysolf.vercel.app/contact', formData);
+      const response = await axios.get('api-rysolf.vercel.app/contact', formData);
       console.log(response.data);
 
       setIsSubmitted(true);
