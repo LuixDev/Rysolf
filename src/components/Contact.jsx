@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
-import videoBg from '../assets/videoBg.mp4'
+
 import axios from 'axios';
 
 const Contact = () => {
@@ -76,7 +76,7 @@ const Contact = () => {
 
     <div className='main'>
         <div className="overlay"></div>
-        <video src={videoBg} autoPlay loop muted />
+        <video src="https://firebasestorage.googleapis.com/v0/b/uber-515a8.appspot.com/o/VideoBg.mp4?alt=media&token=c712f78d-1ae1-49c3-a622-41c568087c2c" autoPlay loop muted />
         <div className="text-overlay">
           <h1>Tell us how we <br />can help you</h1>
         </div>
