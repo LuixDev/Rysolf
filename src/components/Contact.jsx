@@ -32,7 +32,7 @@ const Contact = () => {
       setIsSending(true);
 
     try {
-      const response = await axios.post('https://api-rysolf.vercel.app/contact', formData);
+      const response = await axios.post('http://localhost:3000/contact', formData);
       console.log(response.data);
 
       setIsSubmitted(true);
@@ -75,16 +75,18 @@ const Contact = () => {
     </div>
 
     <div className='main'>
+    <div className="video-container">
         <div className="overlay"></div>
         <video src="https://firebasestorage.googleapis.com/v0/b/uber-515a8.appspot.com/o/VideoBg.mp4?alt=media&token=c712f78d-1ae1-49c3-a622-41c568087c2c" autoPlay loop muted />
         <div className="text-overlay">
-          <h1>Tell us how we <br />can help you</h1>
+          <h3>Tell us how we <br />can help you</h3>
         </div>
 
-        <div style={{ position: 'absolute', top:60, left: 0, width: '91vw', height: '91vh', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'flex-end', padding: '1em', color: '#9B9B9B', fontSize: '14px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'flex-end', padding: '1em', color: '#9B9B9B', fontSize: '14px' }}>
     {/* Contenido del formulario aquí */}
+ 
       
-        <Card style={{ width: '100%', maxWidth: '32rem', padding: '1rem' }}>
+        <Card style={{ width: '100%', maxWidth: '30rem', padding: '1rem' }}>
             <Card.Body>
             <Form onSubmit={handleSubmit}>
             
@@ -160,6 +162,8 @@ const Contact = () => {
         
         </div>
 
+       
+        </div>
 
 
 
