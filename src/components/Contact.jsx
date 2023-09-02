@@ -81,7 +81,7 @@ const Contact = () => {
           <h1>Tell us how we <br />can help you</h1>
         </div>
 
-        <div style={{ position: 'absolute', top:60, left: 0, width: '90vw', height: '90vh', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'flex-end', padding: '15px', color: '#9B9B9B', fontSize: '14px' }}>
+        <div style={{ position: 'absolute', top:60, left: 0, width: '90vw', height: '90vh', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'flex-end', padding: '1em', color: '#9B9B9B', fontSize: '14px' }}>
     {/* Contenido del formulario aquí */}
       
         <Card style={{ width: '100%', maxWidth: '32rem', padding: '1rem' }}>
