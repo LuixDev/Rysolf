@@ -18,20 +18,25 @@ const Hero = () => {
             We Create transformative Digital{" "}
             <span className="text-primary py-2 px-6 border-8 border-primary relative inline-block">
               Products
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-primary rounded-full box-content" />
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -bottom-5 p-2 bg-primary rounded-full box-content" />
+        
              
             </span>
           </h1>
           <p className="text-gray-500 text-2xl leading-[2.5rem]">
-            Help find solutions with intitutive and in accordance with client
-            business goals. we provide a high-quality services.
+           <div className="typewriter-text">
+  <p>
+   We help find solutions with intitutive and in accordance with client
+  </p>
+  <p>
+    business goals. we provide high-quality services.
+  </p>
+</div>
+
           </p>
           <div className="flex flex-col md:flex-row items-center gap-4">
             <Link to="/contact">
             <button className="w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl text-xl">
-              Contact Us
+              Contact us
             </button>
             </Link>
           </div>
@@ -69,3 +74,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
