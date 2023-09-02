@@ -13,10 +13,56 @@ html {
     width: 100%;
     height: 100vh;
   }
+  .video-container {
+    position: relative;
+    max-width: 100%; /* Hace que el video sea responsivo */
+    overflow: hidden;
+    padding-bottom: 16.25%; /* Proporción de aspecto 16:9 para el video (ajusta según sea necesario) */
+  }
+
+  /* En tu archivo CSS o en línea en JSX */
+/* En tu archivo CSS o en línea en JSX */
+.typewriter-text {
+  overflow: hidden; /* Oculta el texto que se encuentra fuera del contenedor */
+  margin: 0 auto; /* Centra el texto horizontalmente */
+  letter-spacing: 0.05em; /* Espaciado entre letras */
+  animation: typing 7s steps(80, end), blink-caret 0.75s step-end infinite;
+  /* Otras propiedades de diseño responsivo aquí */
+  display: block; /* Asegura que el texto esté en un bloque separado */
+}
+
+.typewriter-text > p {
+  white-space: nowrap; /* Evita que cada línea se divida en múltiples líneas */
+}
+
+/* Animación de escritura */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Animación del cursor parpadeante */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: orange;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
   video {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover
   }
   .text-overlay {
     position: absolute; /* Posición absoluta para superponer el texto */
@@ -24,7 +70,7 @@ html {
     left: 20px; /* Ajusta la posición horizontal del texto según necesites */
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 3.4rem; /* Tamaño de fuente más grande */
+    font-size: 3.0rem; /* Tamaño de fuente más grande */
     color: white;
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
     padding: 10px; /* Espaciado interno para el texto */
@@ -59,7 +105,7 @@ html {
       display: none; /* Ocultar el texto en modo móvil */
     }
 }
-    
 }
 
   
+
