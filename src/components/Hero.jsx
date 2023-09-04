@@ -23,7 +23,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-gray-500 text-2xl leading-[2.5rem]">
-           <div className="typewriter-text">
+           <div className="">
   <p>
    We help find solutions with intitutive and in accordance with client
   </p>
