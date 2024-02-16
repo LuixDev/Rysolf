@@ -77,7 +77,7 @@ const Contact = () => {
     <div className='main'>
     <div className="video-container">
         <div className="overlay"></div>
-        <video src="https://firebasestorage.googleapis.com/v0/b/mybucket-55405.appspot.com/o/gif.gif?alt=media&token=9dca30a9-28f3-4c36-9973-4cbe6ae7d61c" autoPlay loop muted />
+        <video src="src\assets\gif.mp4" autoPlay loop muted />
         <div className="text-overlay">
           <h3>Tell us how we <br />can help you</h3>
         </div>
