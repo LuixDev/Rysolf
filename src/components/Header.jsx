@@ -16,7 +16,7 @@ const Header = () => {
   <div className="xl:w-1/6 text-center -mt-4">
   <a href="#" className="text-xl font-bold relative p-1 bg-white">
     <img
-      src="https://firebasestorage.googleapis.com/v0/b/uber-515a8.appspot.com/o/Captura.JPG?alt=media&token=696a71db-7163-461d-9954-f05203fb7612"
+      src="https://firebasestorage.googleapis.com/v0/b/mybucket-55405.appspot.com/o/rysolf%20(1).jpg?alt=media&token=fbe9f22f-adb4-4bef-b9eb-3e8a1e522198"
       alt="Rysolf"
       className="inline-block w-16 h-16 text-2xl font-bold relative p-1 bg-white"
       style={{ marginTop: '20px' }}
