@@ -25,19 +25,15 @@ const Footer = () => {
         <nav className="flex items-center gap-4">
           <a href="#" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiInstagramLine />{" "}
+            <RiInstagramLine />{"https://www.instagram.com/rysolf_oficial/"}
           </a>
           <a href="#" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiFacebookLine />{" "}
+            <RiFacebookLine />{"https://www.facebook.com/profile.php?id=61550190514462"}
           </a>
           <a href="#" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiTwitterLine />{" "}
-          </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
-            {" "}
-            <RiGithubLine />{" "}
+            <RiTwitterLine />{"https://twitter.com/rysolf"}
           </a>
         </nav>
       </div>
