@@ -10,78 +10,59 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-footer p-8 xl:p-20">
+    <footer className="bg-white text-black p-8 xl:p-20">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
         {/* Logo */}
         <div className="w-1/6">
-          <a
-            href="#"
-            className="text-2xl font-bold relative p-1 bg-footer text-white"
-          >
-            Rysolf
-          </a>
+                <a
+          href="#"
+          className="text-xl font-bold text-black text-center md:text-left"
+        >
+          Rysolf
+        </a>
         </div>
         {/* Social media */}
         <nav className="flex items-center gap-4">
           <a href="https://www.instagram.com/rysolf_oficial/" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiInstagramLine />{""}
+            <RiInstagramLine />{" "}
           </a>
           <a href="https://www.facebook.com/profile.php?id=61550190514462" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiFacebookLine />{""}
+            <RiFacebookLine />{" "}
           </a>
           <a href="https://twitter.com/rysolf" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiTwitterLine />{""}
+            <RiTwitterLine />{" "}
           </a>
         </nav>
       </div>
       <div className="mt-8">
-        <h3 className="text-lg font-bold text-white text-center md:text-left">
-          Company
-        </h3>
+       
         <nav className="mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-colors"
+            href="https://docs.google.com/document/d/1EtwEKqWs2PApNzMgy3tZjlo46-5muNyd2lBpSOTs9a0/edit?usp=sharing"
+            className="text-lg  text-black text-center md:text-left"
           >
-            About Us
+           Contact us directly
           </a>
+        
           <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Press
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Investors
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
-          >
-            Events
-          </a>
-          <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
+            href="https://docs.google.com/document/d/1Pd4f4bjP7LJIoIJXUAt-2__ARjGnHOPrg4n3Caumt7Q/edit?usp=sharing"
+            className="text-lg ftext-black text-center md:text-left"
           >
             Terms of use
           </a>
           <a
-            href="#"
-            className="text-gray-300 mt-4 hover:text-white transition-color"
+            href="https://docs.google.com/document/d/1D4joHdBixrP4MgtLJc8GlYKq5ecUcPSVO7VoVRs1XX8/edit?usp=sharing"
+            className="text-lg  text-black text-center md:text-left"
           >
             Privacy policy
           </a>
         </nav>
       </div>
       <div className="mt-20">
-        <p className="text-gray-300 text-center">
+        <p className="text-black  text-center">
           © Rysolf 2024 - All Rights Reserved
         </p>
       </div>
