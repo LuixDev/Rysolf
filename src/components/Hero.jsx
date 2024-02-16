@@ -47,7 +47,7 @@ const Hero = () => {
         {/* Content image */}
         <div>
         <img
-  src="https://firebasestorage.googleapis.com/v0/b/uber-515a8.appspot.com/o/4380747.jpg?alt=media&token=36b30a8d-3da9-4578-abc4-7f59d776ab43"
+  src="https://firebasestorage.googleapis.com/v0/b/mybucket-55405.appspot.com/o/971.jpg?alt=media&token=0e09ad4a-c406-43e4-ac72-e3226f891773"
   className="w-[240px] h-[240px] md:w-[440px] md:h-[440px] object-cover xl:-mt-28 rounded-full"
 />
 
