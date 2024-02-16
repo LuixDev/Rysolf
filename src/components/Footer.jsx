@@ -23,17 +23,17 @@ const Footer = () => {
         </div>
         {/* Social media */}
         <nav className="flex items-center gap-4">
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="https://www.instagram.com/rysolf_oficial/" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiInstagramLine />{"https://www.instagram.com/rysolf_oficial/"}
+            <RiInstagramLine />{""}
           </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="https://www.facebook.com/profile.php?id=61550190514462" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiFacebookLine />{"https://www.facebook.com/profile.php?id=61550190514462"}
+            <RiFacebookLine />{""}
           </a>
-          <a href="#" className="block text-white p-4 bg-primary rounded-full">
+          <a href="https://twitter.com/rysolf" className="block text-white p-4 bg-primary rounded-full">
             {" "}
-            <RiTwitterLine />{"https://twitter.com/rysolf"}
+            <RiTwitterLine />{""}
           </a>
         </nav>
       </div>
@@ -82,7 +82,7 @@ const Footer = () => {
       </div>
       <div className="mt-20">
         <p className="text-gray-300 text-center">
-          © Rysolf 2023 - All Rights Reserved
+          © Rysolf 2024 - All Rights Reserved
         </p>
       </div>
     </footer>
