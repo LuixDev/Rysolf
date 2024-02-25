@@ -23,11 +23,11 @@ const Footer = () => {
         </div>
         {/* Social media */}
         <nav className="flex items-center gap-4">
-          <a href="https://www.instagram.com/rysolf_oficial/" className="block text-white p-4 bg-primary rounded-full">
+          <a href="https://www.instagram.com/rysolf.dev/?ref=d5o1mk9mfafd&hl=es" className="block text-white p-4 bg-primary rounded-full">
             {" "}
             <RiInstagramLine />{" "}
           </a>
-          <a href="https://www.facebook.com/profile.php?id=61550190514462" className="block text-white p-4 bg-primary rounded-full">
+          <a href="https://www.facebook.com/rysolf" className="block text-white p-4 bg-primary rounded-full">
             {" "}
             <RiFacebookLine />{" "}
           </a>
